@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Epilogue:wght@400;700;800&display=swap'); 
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Agency - Contact</title>
+</head>
+<body>
+    <header>
+        <div class="skip-link">
+            Skip to <a href='#blog'>content</a> or <a href='#footer'>footer</a>
+        </div> 
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="img/logo.svg" alt="Agency Logo"></a>
+            <input class="menu-btn" type="checkbox" tabindex="0" id="menu-btn">
+            <label class="menu-icon" for="menu-btn" aria-label="open menu"><span class="nav-icon"></span></label>
+            <ul class="menu">                    
+                <li><a href="index.html" class="active">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="color-theory-for-designers.html">Blog</a></li>
+                <li><a href="contact.html" class="contact"><span>Contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+            
+    <main id="contact">
+        <div id="tittle">
+            <article class="container">
+                <h1>Contact</h1>
+                <p>We provide services from our offices in Washington. You can visit our office or drop us an email. We will be happy to meet you in person or online.</p>
+            </article>
+        </div>
+        <div id="map">
+            <div class="container">
+                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52983.55059947308!2d-98.52728606109359!3d33.903251986413196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8652db0b7d1ca639%3A0x3b22e12b908fe9ed!2sWichita%20Falls%2C%20Texas%2076301%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1668535767811!5m2!1ses!2ses" width="600" height="450" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>               -->
+            </div>
+        </div>
+        <div id="contact-method">
+            <div class="container">
+                <div class="contact-icons">
+                    <div class="phone">
+                        <div class="box-contact">
+                            <span class="contact-logo"><img src="./img/phone.svg" alt="phone symbol"></span>
+                            <p class="contact-type">Phone</p>
+                        </div>
+                        <p class="contact-data"><a href="tel:+1(234)567-89-00">+1 (234) 567-89-00</a></p>
+                    </div>
+                    <div class="email">
+                        <div class="box-contact">
+                            <span class="contact-logo"><img src="./img/email.svg" alt="email symbol"></span>
+                            <p class="contact-type">Email</p>
+                        </div>
+                        <p class="contact-data"><a href="mailto:info@agency.com">info@agency.com</a></p>
+                    </div>
+                    <div class="address">
+                        <div class="box-contact">
+                            <span class="contact-logo"><img src="./img/compass.svg" alt="compass symbol"></span>
+                            <p class="contact-type">Address</p>
+                        </div>
+                        <p class="contact-data">2247 Lunetta Street, TX 76301</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form-section">
+            <article class="box-form container">
+                <h4>Get in touch</h4>
+                <p>Fields with <abbr title="required">*</abbr> are required</p>
+                <form  action="#" method="post" class="contact">
+                    <div class="form">
+                        <div class="column">
+                            <div class="name">
+                                <p><label for="name">Your Name <abbr title="required">*</abbr></label></p>
+                                <p><input type="text" id="name" name="name" required></p>
+                            </div>
+                            <div class="email">
+                                <p><label for="email">Your email <abbr title="required">*</abbr></label></p>
+                                <p><input type="email" id="email" name="email" required></p> 
+                            </div>
+                            <div class="phone">
+                                <p><label for="phone">Your phone number <abbr title="required">*</abbr></label></p>
+                                <p><input type="tel" id="phone" name="phone" required></p>
+                            </div>
+                        </div>  
+                        <div class="column">
+                            <div class="interest">
+                                <p><label for="interested">I am interested in... <abbr title="required">*</abbr></label></p>
+                                <p>
+                                    <select id="interested" name="user-interested" required>
+                                        <option value="" hidden>&nbsp;</option>
+                                        <option value="design">Design</option>
+                                        <option value="development">Development</option>
+                                        <option value="marketing">Marketing</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </p>
+                            </div>
+                            <div class="message">
+                                <p><label for="message">Message</label></p>
+                                <p><textarea id="message" name="message"></textarea></p>
+                            </div>
+                            <div class="policy">
+                                <p>
+                                    <input id="privacity" type="checkbox" name="provacy" required>
+                                    <label for="privacity">I have read and accept the <a href="#">privacy policy</a> <abbr title="required">*</abbr></label>
+                                </p>
+                            </div>
+                            <p class="submit"><button class="btn-submit" type="submit">Submit now</button></p>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="column container">
+            <div class="footer-logo">
+                <h3>Agency</h3>
+            </div>
+            <div class="footer-menu">
+                <h3>MENU</h3>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="color-theory-for-designers.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-services">
+                <h3>SERVICES</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">See More</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-social">
+                <h3>OUR SOCIAL NETWORKS</h3>
+                <nav>
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com/agency" class="social-icon"  aria-label="go to Agency Facebook"><img src="img/facebook.svg" alt="Facebook Logo"></a></li>
+                        <li><a target="_blank" href="https://www.twitter.com/agency" class="social-icon" aria-label="go to Agency Twitter"><img src="img/twitter.svg" alt="Twitter Logo"></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/agency" class="social-icon" aria-label="go to Agency Instagram"><img src="img/instagram.svg" alt="Instagram Logo"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="credits container">
+            <div class="copyright">
+                <p>Copyright © 2022 <a target="_blank" href="https://laaqiq.gumroad.com">Laaqiq</a>. All Rights Reserved.</p>
+                <div class="legal">
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <p class="freepik-credits">Header background image on the bog by <a target="_blank" href="https://www.freepik.com/free-vector/larkspur-by-william-morris_3413160.htm#query=texture&position=23&from_view=keyword">rawpixel.com</a> on <a target="_blank" href="https://www.freepik.com/">Freepik.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
